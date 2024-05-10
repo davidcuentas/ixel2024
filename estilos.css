@@ -1,0 +1,792 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "gothic r";
+    src:url(fuentes/GOTHIC.TTF);
+}
+@font-face {
+    font-family: "gothic b";
+    src:url(fuentes/GOTHICB.TTF);
+}
+@font-face {
+    font-family: "majalla r";
+    src:url(fuentes/majalla.ttf);
+}
+@font-face {
+    font-family: "majalla b";
+    src:url(fuentes/majallab.ttf);
+}
+
+body{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding:0;
+	margin:0;
+	overflow-y: scroll;
+}
+
+video#bgvid {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+/*contenido*/
+#logo{
+	width:97px;
+}
+
+.image1{
+	float:left;
+	padding-right:15px;
+}
+.image2{
+	float:right;
+	position:relative;
+	top:-120px
+}
+
+/* SECCION 1 */
+#seccion1{
+	float:left;
+	width:100%;
+	height:664px;
+}
+
+#main{
+	float:left;
+	width:100%;
+	background-color:#000;
+	opacity:0.8;
+	color:#FFF;
+	font-family:"majalla r";
+	height:185px;
+	position:absolute;
+	top:530px;
+}
+
+.inner-banner{
+	height:535px !important;
+}
+
+
+.inner-banner #main{
+	float:none;
+	position:static;
+  margin-top:350px;
+}
+
+#banner{
+	height:160px;
+	padding-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+}
+
+#congreso{
+	width:600px;
+	float:left;
+}
+.primario{
+	margin:0;
+	padding-top:8px;
+	width:600px;
+	float:left;
+	font-size:50px;
+	line-height: 0.7;
+}
+	
+.secundario{	
+	margin:0;
+	padding:0;
+	width:600px;
+	float:left;
+	font-size:24px;
+}
+
+/* SECCION 2*/
+#redes{
+	float:left;
+	width:100%;
+	height:45px;
+	background-color:#fff;
+}
+
+.red{
+	float:left;
+	text-align:center;
+	padding-top:5px;
+	
+}
+
+#red1{
+	width:25%;
+	height:100%;
+	background-color:#b2b2b2;
+}
+#red1:hover{
+	transition:ease-in-out 100ms;
+	background-color:#F45BFD;
+}
+
+#red2{
+	width:25%;
+	height:100%;
+	background-color:#b2b2b2;
+}
+#red2:hover{
+	transition:ease-in-out 100ms;
+	background-color:#322fb2;
+}
+
+#red3{
+	width:25%;
+	height:100%;
+	background-color:#b2b2b2;
+}
+#red3:hover{
+	transition:ease-in-out 100ms;
+	background-color:#e71c88;
+}
+
+#red4{
+	width:25%;
+	height:100%;
+	background-color:#b2b2b2;
+}
+#red4:hover{
+	transition:ease-in-out 100ms;
+	background-color:#131313;
+}
+
+#red5{
+	width:25%;
+	height:100%;
+	background-color:#b2b2b2;
+}
+#red5:hover{
+	transition:ease-in-out 100ms;
+	background-color:#ea1d26;
+}
+
+/* SECCION GALERIA */
+#galeria{
+	width:100%;
+	float:left;
+	height:790px;
+	background-color:#fff;
+}
+
+#foto-cont{
+	width:960px;
+	margin-top:70px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#000;
+	height:640px;
+}
+
+.foto-cont{
+	float:left;
+}
+
+.texto-bg{
+	background-color:rgba(0,0,0,0.8);
+	height:320px;
+	margin: 0;
+	opacity:0;
+	position:absolute;
+	text-align:center;
+	transition:ease-out 300ms;
+	width:320px;
+}
+.texto-bg:hover{
+	opacity:1;
+}
+
+p{
+  color:#666;
+}
+h4{
+	color: #666;
+	font-size: 25px;
+}
+
+h5{
+	color:#666;
+	font-size: 20px;
+}
+
+.wrapper a{
+	color: #666;
+	text-decoration: underline;
+}
+
+#foto1{
+	width:320px;
+	height:320px;
+	background-image:url(imagenes/2021.jpg);
+}
+/*#foto1:hover{
+	transition:ease-out 300ms;
+	opacity:0.4;
+}*/
+
+#foto2{
+	width:320px;
+	height:320px;
+	background-image:url("imagenes/2020.jpg");
+}
+/*#foto2:hover{
+	transition:ease-out 300ms;
+	opacity:0.4;
+}*/
+
+#foto3{
+	width:320px;
+	height:320px;
+	background-image:url("imagenes/2019.jpg");
+}
+/*#foto3:hover{
+	transition:ease-out 300ms;
+	opacity:0.4;
+}*/
+
+#foto4{
+	width:320px;
+	height:320px;
+	background-image:url(imagenes/2017.png);
+}
+/*#foto4:hover{
+	transition:ease-out 300ms;
+	opacity:0.4;
+}*/
+
+#foto5{
+	width:320px;
+	height:320px;
+	background-image:url(imagenes/2015.png);
+}
+/*#foto5:hover{
+	transition:ease-out 300ms;
+	opacity:0.4;
+}*/
+
+#foto6{
+	width:320px;
+	height:320px;
+	background-image:url(imagenes/2008.png);
+}
+/*#foto6:hover{
+	transition:ease-out 300ms;
+	opacity:0.4;
+}*/
+
+#foto7{
+	width:320px;
+	height:320px;
+	background-image:url(imagenes/2008.jpg);
+}
+/*#foto7:hover{
+	transition:ease-out 300ms;
+	opacity:0.4;
+}*/
+
+
+
+span.index-info{
+	color:#FFF;
+	display: block;
+	font-family:"gothic b";
+	font-size:50px;
+	line-height: 0.9;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:150px;
+	width:100px;
+}
+
+
+/* SECCION 3*/
+
+#seccion3{
+	float:left;
+	width:100%;
+	background-color:#fff;
+}
+
+.comunicado{
+	width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:justify;
+	font-size:16px;
+	color:#323232;
+}
+
+.titulo-comunicado{
+	font-family:"majalla b";
+	font-size:48px;
+	color:#8bc540;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.image3{
+	float:right;
+	position:relative;
+	top:60px;
+}
+
+.image4{
+	float:right;
+	position:relative;
+	top:50px;
+}
+
+/* ----------------------TOGGLE--------------------- */
+
+.tabs {
+  position: relative;   
+  min-height: 200px; /* This part sucks */
+  clear: both;
+  margin-top: 80px;
+  margin-bottom:40px;
+  height:1000px;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #666; 
+  padding-right:15px;
+  padding-left:15px; 
+  padding-top:5px;
+  border: 1px solid #666; 
+  margin-left: -1px;
+  font-family:"majalla b";
+  font-size:26px;
+  position: relative;
+  left: 153px;
+  color:#FFF;
+  min-width: 140px;
+  display: block;
+  text-align: center;
+  z-index: 2;
+}
+.tab [type=radio] {
+  display: none;   
+}
+.tab .content {
+	background: white;
+	border-top: 1px solid #666;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+	position: absolute;
+	right: 0;
+	top: 42px;
+	width: 750px;
+	height: 1407px;
+}
+.tab [type=radio]:checked ~ label {
+  background:#FFF;
+  border-bottom:1px solid transparent;
+  color:#666;
+  z-index: 2;
+}
+.tab [type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+
+
+/* -----------------------------SECCION----------------------------- 4*/
+
+#footer{
+	padding-top:30px;
+	padding-bottom:30px;
+ 	background-color:#FFF;
+ 	clear: both;
+}
+
+#foot-info{
+	overflow: hidden;
+	width:960px;
+	margin:auto;
+}
+
+#contactos{
+	width:20%;
+	color:#FFFFFF;
+	font-family:"majalla r";
+	float:left;
+}
+
+#cont{
+	font-family:"gothic r";
+	margin-top:-30px;
+	font-size:13px;
+}
+
+#cont a{
+	color: #666;
+	text-decoration: underline;
+}
+
+#mini-redes{
+	height:30px;
+	margin-top:15px;
+}
+
+.ima-foot{
+	float:left;
+	padding-left:76px;
+}
+
+#sponsors{
+	color:#FFFFFF;
+	font-family:"majalla r";
+	width:640px;
+	float:left;
+	margin-left:18px;
+	background-color:#FFFFFF;
+	border: 2px solid;
+    border-radius: 25px;
+}
+
+.patrocinio{
+	text-align:center;
+	width:100%;
+}
+
+h2{
+	margin-bottom:0;
+	color:#333;
+	
+}
+
+hr{
+	width:420px;
+	height:2px;
+	background-color:#CCC;
+	opacity:0.4;
+	clear:both;
+}
+
+
+/* NEW STYLES
+========================================*/
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+/*html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+*/
+
+.no-decoration li{list-style-type: none;}
+.aligncenter{
+	text-align: center;
+}
+
+section{
+	background-color:#FFF;
+	clear:both;
+	padding:50px 0;
+	overflow: hidden;
+}
+
+.wrapper{
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 940px;
+	color: #666666;
+}
+
+.grand-title{
+	font-family:"majalla b";
+	font-size:60px;
+	padding:20px 0;
+	color:#666;
+}
+
+.subtitle{
+	font-family:"majalla b";
+	font-size:40px;
+	margin-bottom:0;
+	padding:20px 0;
+	color:#666;
+}
+
+.info b{color:#666;}
+.info p,
+.info li{line-height: 1.5;}
+.info .subtitle{margin:30px 0 10px; padding-bottom: 0;}
+.info.winners strong{color:#666;}
+
+.picture-banner{
+	height:320px;
+	width:100%;
+}
+
+.picture-banner.cartagena{
+	background: url("imagenes/cartagena/link_cartagenadestinodemoda.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.cartagena{
+	background: url("imagenes/cartagena/link_cartagenadestinodemoda.jpg") no-repeat 0px -400px;
+	background-size: cover;
+}
+
+.picture-banner.salon-artesanal{
+	background: url("imagenes/artesanal/link_salonartesanal.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.salon-artesanal{
+	background: url("imagenes/artesanal/link_salonartesanal.jpg") no-repeat 0px -130px;
+	background-size: cover;
+}
+
+.picture-banner.infashion{
+	background: url("imagenes/infashion/UPB_6523.jpg") no-repeat 0px -263px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.infashion{
+	background: url("imagenes/infashion/UPB_6523.jpg") no-repeat 0px -213px;
+	background-size: cover;
+}
+
+.picture-banner.alojamiento{
+	background: url("imagenes/alojamiento/banner.jpg") no-repeat 0px -30px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.alojamiento{
+	background: url("imagenes/alojamiento/banner.jpg") no-repeat 0px -85px;
+	background-size: cover;
+}
+
+.picture-banner.pasarelas{
+	background: url("imagenes/pasarelas/banner.jpg") no-repeat 0px -180px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.pasarelas{
+	background: url("imagenes/pasarelas/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.picture-banner.forosectorial{
+	background: url("imagenes/forosectorial/banner.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.forosectorial{
+	background: url("imagenes/forosectorial/banner.jpg") no-repeat 0px -320px;
+	background-size: cover;
+}
+
+.picture-banner.congresoacademico{
+	background: url("imagenes/congresoacademico/banner.jpg") no-repeat 0px -100px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.congresoacademico{
+	background: url("imagenes/congresoacademico/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.picture-banner.ixelmoda{
+	background: url("imagenes/ixelmoda/banner.jpg") no-repeat 0px -20px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.ixelmoda{
+	background: url("imagenes/ixelmoda/banner.jpg") no-repeat 0px -102px;
+	background-size: cover;
+}
+
+.picture-banner.ixelmoda2{
+	background: url("imagenes/ixelmoda/banner2.jpg") no-repeat 0px -20px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.ixelmoda2{
+	background: url("imagenes/ixelmoda/banner2.jpg") no-repeat 0px -102px;
+	background-size: cover;
+}
+
+.picture-banner.ixelmoda4{
+	background: url("imagenes/ixelmoda/banner4.jpg") no-repeat 0px -20px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.ixelmoda4{
+	background: url("imagenes/ixelmoda/banner4.jpg") no-repeat 0px -102px;
+	background-size: cover;
+}
+
+.picture-banner.inscripciones{
+	background: url("imagenes/cartagena/link_inscripciones.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.inscripciones{
+	background: url("imagenes/cartagena/link_inscripciones.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.inner-banner.arte{
+	background: url("imagenes/arte/banner.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.arte{
+	background: url("imagenes/arte/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.inner-banner.interiorismo{
+	background: url("imagenes/espacios/banner.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.interiorismo{
+	background: url("imagenes/espacios/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.inner-banner.fotografia{
+	background: url("imagenes/Fotografia/banner.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.fotografia{
+	background: url("imagenes/Fotografia/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.inner-banner.gastronomia{
+	background: url("imagenes/gastronomia/banner.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.gastronomia{
+	background: url("imagenes/gastronomia/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.inner-banner.musica{
+	background: url("imagenes/Musica/banner.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.musica{
+	background: url("imagenes/Musica/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.inner-banner.moda{
+	background: url("imagenes/Moda/banner.jpg") no-repeat 0px -130px;
+	background-size: 960px 590px;
+}
+
+.inner-banner.moda{
+	background: url("imagenes/Moda/banner.jpg") no-repeat 0px -280px;
+	background-size: cover;
+}
+
+.js-tile-gallery ul{margin:0;padding:0;}
+
+.js-tile-gallery li{display:inline-block;overflow: hidden;height:250px;width:308px;}
+.js-tile-gallery img{min-width: 310px;height:auto;width:100%;min-height:250px;}
+.js-tile-gallery.custom--gallery img{height: auto;}
+
+.tab-menu{
+	margin-top:50px;
+	border-bottom:solid #f39124 1px;
+	text-align:center;
+}
+.tab-menu a{
+	font-size: 16px;
+	color:#fff;
+	background-color: #f39124;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	padding:5px 15px;
+	position: relative;
+}
+.tab-menu a.active{
+	color:#f39124;
+	background-color: #FFF;
+	border-left:solid #f39124 1px;
+	border-right:solid #f39124 1px;
+	border-top:solid #f39124 1px;
+	top:1px;
+}
+.tab-menu li{
+	display:inline-block;
+	text-align: center;
+	
+}
+.tab-menu li:last-child{border-right: solid #f39124 1px;}
+
+.read-more{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.table{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	font-size: 14px;
+	margin-bottom: 40px;
+	table-layout: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+.table-custom{
+	table-layout: auto;
+}
+
+.table th, .table td{
+	border: 1px solid #000;
+	padding: 5px 10px;
+}
+
+.table-custom th, .table-custom td{
+	padding: 5px;
+}
+
+.color-alert{
+	color: #F00;
+}
+
+.color-white{
+	color: #FFF;
+}
+
+.bannerbaq {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 20%;
+}
+
+.ejetematico{
+	text-align: center;
+}

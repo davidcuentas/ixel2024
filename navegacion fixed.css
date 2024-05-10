@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+	text-decoration:none;
+	font-family:"gothic r";
+	font-size:15px;
+	color:#fff;
+}
+
+a, visited{
+	text-decoration:none;
+	font-family:"gothic r";
+	font-size:15px;
+	color:#fff;
+}
+
+#nav-estatica{
+	width:190px;
+	position:fixed;
+	font-family:"gothic r";
+	font-size:15px;
+	color:#fff;
+	z-index:999;
+	right:0%;
+	top:168px;
+		-webkit-transform: translateZ(0);
+}
+
+.caja p, .caja span, .caja-ins p, .caja-ins span{
+	margin:0;
+	padding:8px;
+	line-height:36px; 
+	color:#fff;
+}
+.p2{
+	font-size:12px;
+}
+
+.caja-mor{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaonmorado.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-mor:hover{
+	background-image: url(imagenes/cajaoff.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+
+.caja-cyan{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaoncyan.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-cyan:hover{
+	background-image: url(imagenes/cajaoff.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+.caja-gris1{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaongris.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-gris1:hover{
+	background-image: url(imagenes/cajaoff.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+.caja-gris2{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaongris2.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-gris2:hover{
+	background-image: url(imagenes/cajaoff.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+
+.caja-gris3{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaongris3.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-gris3:hover{
+	background-image: url(imagenes/cajaongris.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+
+.caja-roj{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaonrojo.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-roj:hover{
+	background-image: url(imagenes/cajaoff.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+.caja-ama{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaonamarillo.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-ama:hover{
+	background-image: url(imagenes/cajaoff.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+.caja-fuc{
+	text-align: center;
+	height: 36px;
+	background-image: url(imagenes/cajaonfucsia.png);
+	display: block;
+	line-height: 36px;
+	color: #fff;
+}
+
+.caja-fuc:hover{
+	background-image: url(imagenes/cajaoff.png);
+	padding: 8;
+	font-family: "gothic r";
+	margin: 0px;
+}
+
+.caja{
+	text-align:center;
+	height:36px;
+	background-image:url(imagenes/cajaon.png);
+	display: block;
+}
+
+
+.caja:hover{
+	background-image:url(imagenes/cajaoff.png);
+	font-family:"gothic r";
+}
+
+.caja-ins{
+	text-align:center;
+	height:36px;
+	background-image:url(imagenes/inscripciones.png);
+	display: block;
+}
+
+.caja-ins:hover{
+	background-image:url(imagenes/cajaoff.png);
+	font-family:"gothic r";
+}
