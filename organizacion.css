@@ -3,19 +3,19 @@
 
 @font-face {
     font-family: "gothic r";
-    src:url(fuentes/GOTHIC.TTF);
+    src:url(fuentes/SpaceGrotesk-Regular.ttf);
 }
 @font-face {
     font-family: "gothic b";
-    src:url(fuentes/GOTHICB.TTF);
+    src:url(fuentes/SpaceGrotesk-Bold.ttf);
 }
 @font-face {
     font-family: "majalla r";
-    src:url(fuentes/majalla.ttf);
+    src:url(fuentes/SpaceGrotesk-SemiBold.ttf);
 }
 @font-face {
     font-family: "majalla b";
-    src:url(fuentes/majallab.ttf);
+    src:url(fuentes/SpaceGrotesk-Bold.ttf);
 }
 
 body{
